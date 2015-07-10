@@ -193,6 +193,15 @@ function zerif_customize_register( $wp_customize ) {
 				'priority'    => 8,
 		));
 		
+		/* youtube */
+		$wp_customize->add_setting( 'zerif_socials_youtube', array('sanitize_callback' => 'esc_url_raw','default' => '#'));
+		$wp_customize->add_control( 'zerif_socials_youtube', array(
+				'label'    => __( 'Youtube link', 'zerif-lite' ),
+				'section'  => 'zerif_general_socials_section',
+				'settings' => 'zerif_socials_youtube',
+				'priority'    => 9,
+		));
+
 		$wp_customize->add_section( 'zerif_general_footer_section' , array(
 				'title'       => __( 'Footer', 'zerif-lite' ),
 				'priority'    => 32,
