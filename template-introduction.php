@@ -65,6 +65,19 @@ endif;
 	</div><!-- .container -->
 
 
+<?php
+	
+	
+	/* ABOUT US */
+
+	$zerif_aboutus_show = get_theme_mod('zerif_aboutus_show');
+
+	if( isset($zerif_aboutus_show) && $zerif_aboutus_show != 1 ):
+
+		include get_template_directory() . "/sections/about_us.php";
+	endif;
+?>
+
 
 <?php
 get_footer();
