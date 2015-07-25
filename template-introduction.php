@@ -67,6 +67,9 @@ endif;
 
 <?php
 	
+	/* RIBBON WITH BOTTOM BUTTON */
+	include get_template_directory() . "/sections/ribbon_with_bottom_button.php";
+	
 	
 	/* ABOUT US */
 
@@ -88,7 +91,7 @@ endif;
 		include get_template_directory() . "/sections/testimonials.php";
 	endif;
 
-	
+
 ?>
 
 
