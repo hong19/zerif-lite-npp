@@ -40,6 +40,7 @@
 		$zerif_socials_linkedin = get_theme_mod('zerif_socials_linkedin','#');
 		$zerif_socials_behance = get_theme_mod('zerif_socials_behance','#');
 		$zerif_socials_dribbble = get_theme_mod('zerif_socials_dribbble','#');
+		$zerif_socials_youtube = get_theme_mod('zerif_socials_youtube','#');
 			
 		$zerif_copyright = get_theme_mod('zerif_copyright');
 
@@ -132,6 +133,10 @@
 						/* dribbble */
 						if( !empty($zerif_socials_dribbble) ):
 							echo '<li><a target="_blank" href="'.esc_url(__($zerif_socials_dribbble,'zerif-lite')).'"><i class="fa fa-dribbble"></i></a></li>';
+						endif;
+						/* youtube */
+						if( !empty($zerif_socials_youtube) ):
+							echo '<li><a target="_blank" href="'.esc_url(__($zerif_socials_youtube,'zerif-lite')).'"><i class="fa fa-youtube"></i></a></li>';
 						endif;
 						echo '</ul>';
 					endif;	
