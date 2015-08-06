@@ -1103,6 +1103,41 @@ function zerif_customize_register( $wp_customize ) {
 		));
 
 
+		$wp_customize->add_section( 'zerif_orangeribbon_section' , array(
+				'title'       => __( 'BottomButton Ribbon Orange', 'zerif-lite' ),
+				'priority'    => 1,
+				'panel'       => 'panel_ribbons'
+		));
+		/* RIBBON SECTION WITH BOTTOM BUTTON -- ORANGE */
+		/* text */
+		$wp_customize->add_setting( 'zerif_orangeribbon_text', array('sanitize_callback' => 'zerif_sanitize_text'));
+		$wp_customize->add_control( 'zerif_orangeribbon_text', array(
+				'label'    => __( 'Text', 'zerif-lite' ),
+				'section'  => 'zerif_orangeribbon_section',
+				'settings' => 'zerif_orangeribbon_text',
+				'priority'    => 1,
+		));
+		/* button label */
+		$wp_customize->add_setting( 'zerif_orangeribbon_buttonlabel', array('sanitize_callback' => 'zerif_sanitize_text'));
+		$wp_customize->add_control( 'zerif_orangeribbon_buttonlabel', array(
+				'label'    => __( 'Button label', 'zerif-lite' ),
+				'section'  => 'zerif_orangeribbon_section',
+				'settings' => 'zerif_orangeribbon_buttonlabel',
+				'priority'    => 2,
+		));
+		/* button link */
+		$wp_customize->add_setting( 'zerif_orangeribbon_buttonlink', array('sanitize_callback' => 'esc_url_raw'));
+		$wp_customize->add_control( 'zerif_orangeribbon_buttonlink', array(
+				'label'    => __( 'Button link', 'zerif-lite' ),
+				'section'  => 'zerif_orangeribbon_section',
+				'settings' => 'zerif_orangeribbon_buttonlink',
+				'priority'    => 3,
+		));
+
+
+
+
+
 
 		$wp_customize->add_section( 'zerif_rightribbon_section' , array(
 				'title'       => __( 'RightButton Ribbon', 'zerif-lite' ),

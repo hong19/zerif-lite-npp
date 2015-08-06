@@ -1889,7 +1889,7 @@ ul.nav > li.current_page_item.current > a:before {
  **   Secction:  Separator purple        -----
 -----------------------------------------*/
 .separator-purple {
-	background: rgba(52, 0, 0, 0.8);
+	background: rgba(52, 0, 147, 0.8);
 	padding: 100px 0 100px 0;
 }
 .separator-purple .purple-btn {
@@ -1899,6 +1899,30 @@ ul.nav > li.current_page_item.current > a:before {
 	background: #007345;
 }
 .separator-purple .text {
+	color: #FFF;
+	line-height: 34px;
+	padding: 0;
+	max-width: 800px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+
+
+/*---------------------------------------
+ **   Secction:  Separator orange        -----
+-----------------------------------------*/
+.separator-orange {
+	background: rgba(52, 0, 0, 0.8);
+	padding: 100px 0 100px 0;
+}
+.separator-orange .orange-btn {
+	background: #14a168;
+}
+.separator-orange .orange-btn:hover {
+	background: #007345;
+}
+.separator-orange .text {
 	color: #FFF;
 	line-height: 34px;
 	padding: 0;
