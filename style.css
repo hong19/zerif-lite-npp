@@ -1867,14 +1867,14 @@ ul.nav > li.current_page_item.current > a:before {
  **   Secction:  Separator blue        -----
 -----------------------------------------*/
 .separator-blue {
-	background: rgba(52, 0, 147, 0.8);
+	background: rgba(44, 71, 112, 0.8);
 	padding: 100px 0 100px 0;
 }
 .separator-blue .blue-btn {
-	background: #14a168;
+	background: #16315A;
 }
 .separator-blue .blue-btn:hover {
-	background: #007345;
+	background: #061F44;
 }
 .separator-blue .text {
 	color: #FFF;
@@ -1889,14 +1889,14 @@ ul.nav > li.current_page_item.current > a:before {
  **   Secction:  Separator purple        -----
 -----------------------------------------*/
 .separator-purple {
-	background: rgba(52, 0, 147, 0.8);
+	background: rgba(87, 42, 114, 0.8);
 	padding: 100px 0 100px 0;
 }
 .separator-purple .purple-btn {
-	background: #14a168;
+	background: #41135B;
 }
 .separator-purple .purple-btn:hover {
-	background: #007345;
+	background: #2D0445;
 }
 .separator-purple .text {
 	color: #FFF;
@@ -1913,14 +1913,14 @@ ul.nav > li.current_page_item.current > a:before {
  **   Secction:  Separator orange        -----
 -----------------------------------------*/
 .separator-orange {
-	background: rgba(52, 0, 0, 0.8);
+	background: rgba(170, 102, 57, 0.8);
 	padding: 100px 0 100px 0;
 }
 .separator-orange .orange-btn {
-	background: #14a168;
+	background: #894517;
 }
 .separator-orange .orange-btn:hover {
-	background: #007345;
+	background: #672A00;
 }
 .separator-orange .text {
 	color: #FFF;
