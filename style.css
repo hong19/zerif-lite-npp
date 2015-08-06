@@ -1886,6 +1886,29 @@ ul.nav > li.current_page_item.current > a:before {
 }
 
 /*---------------------------------------
+ **   Secction:  Separator purple        -----
+-----------------------------------------*/
+.separator-purple {
+	background: rgba(52, 0, 0, 0.8);
+	padding: 100px 0 100px 0;
+}
+.separator-purple .purple-btn {
+	background: #14a168;
+}
+.separator-purple .purple-btn:hover {
+	background: #007345;
+}
+.separator-purple .text {
+	color: #FFF;
+	line-height: 34px;
+	padding: 0;
+	max-width: 800px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+
+/*---------------------------------------
  **   Section: Portfolio          -----
 -----------------------------------------*/
 .works {
