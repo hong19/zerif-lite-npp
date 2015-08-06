@@ -313,9 +313,19 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 	/* RIBBON WITH BOTTOM BUTTON */
 
-
 	include get_template_directory() . "/sections/ribbon_with_bottom_button.php";
 
+	/* RIBBON WITH BOTTOM BUTTON -- BLUE*/
+
+	include get_template_directory() . "/sections/ribbon_with_bottom_button_blue.php";
+
+	/* RIBBON WITH BOTTOM BUTTON -- PURPLE*/
+
+	include get_template_directory() . "/sections/ribbon_with_bottom_button_purple.php";
+
+	/* RIBBON WITH BOTTOM BUTTON -- ORANGE*/
+
+	include get_template_directory() . "/sections/ribbon_with_bottom_button_orange.php";
 
 
 

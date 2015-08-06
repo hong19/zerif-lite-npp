@@ -1862,6 +1862,76 @@ ul.nav > li.current_page_item.current > a:before {
 	margin-bottom: 20px;
 	margin-top: 15px;
 }
+
+/*---------------------------------------
+ **   Secction:  Separator blue        -----
+-----------------------------------------*/
+.separator-blue {
+	background: rgba(44, 71, 112, 0.8);
+	padding: 100px 0 100px 0;
+}
+.separator-blue .blue-btn {
+	background: #16315A;
+}
+.separator-blue .blue-btn:hover {
+	background: #061F44;
+}
+.separator-blue .text {
+	color: #FFF;
+	line-height: 34px;
+	padding: 0;
+	max-width: 800px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+/*---------------------------------------
+ **   Secction:  Separator purple        -----
+-----------------------------------------*/
+.separator-purple {
+	background: rgba(87, 42, 114, 0.8);
+	padding: 100px 0 100px 0;
+}
+.separator-purple .purple-btn {
+	background: #41135B;
+}
+.separator-purple .purple-btn:hover {
+	background: #2D0445;
+}
+.separator-purple .text {
+	color: #FFF;
+	line-height: 34px;
+	padding: 0;
+	max-width: 800px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+
+
+/*---------------------------------------
+ **   Secction:  Separator orange        -----
+-----------------------------------------*/
+.separator-orange {
+	background: rgba(170, 102, 57, 0.8);
+	padding: 100px 0 100px 0;
+}
+.separator-orange .orange-btn {
+	background: #894517;
+}
+.separator-orange .orange-btn:hover {
+	background: #672A00;
+}
+.separator-orange .text {
+	color: #FFF;
+	line-height: 34px;
+	padding: 0;
+	max-width: 800px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+
 /*---------------------------------------
  **   Section: Portfolio          -----
 -----------------------------------------*/
