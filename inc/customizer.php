@@ -1035,6 +1035,41 @@ function zerif_customize_register( $wp_customize ) {
 				'settings' => 'zerif_bottomribbon_buttonlink',
 				'priority'    => 3,
 		));
+
+
+		
+		$wp_customize->add_section( 'zerif_blueribbon_section' , array(
+				'title'       => __( 'BottomButton Ribbon Blue', 'zerif-lite' ),
+				'priority'    => 1,
+				'panel'       => 'panel_ribbons'
+		));
+		/* RIBBON SECTION WITH BOTTOM BUTTON -- BLUE */
+		/* text */
+		$wp_customize->add_setting( 'zerif_blueribbon_text', array('sanitize_callback' => 'zerif_sanitize_text'));
+		$wp_customize->add_control( 'zerif_blueribbon_text', array(
+				'label'    => __( 'Text', 'zerif-lite' ),
+				'section'  => 'zerif_blueribbon_section',
+				'settings' => 'zerif_blueribbon_text',
+				'priority'    => 1,
+		));
+		/* button label */
+		$wp_customize->add_setting( 'zerif_blueribbon_buttonlabel', array('sanitize_callback' => 'zerif_sanitize_text'));
+		$wp_customize->add_control( 'zerif_blueribbon_buttonlabel', array(
+				'label'    => __( 'Button label', 'zerif-lite' ),
+				'section'  => 'zerif_blueribbon_section',
+				'settings' => 'zerif_blueribbon_buttonlabel',
+				'priority'    => 2,
+		));
+		/* button link */
+		$wp_customize->add_setting( 'zerif_blueribbon_buttonlink', array('sanitize_callback' => 'esc_url_raw'));
+		$wp_customize->add_control( 'zerif_blueribbon_buttonlink', array(
+				'label'    => __( 'Button link', 'zerif-lite' ),
+				'section'  => 'zerif_blueribbon_section',
+				'settings' => 'zerif_blueribbon_buttonlink',
+				'priority'    => 3,
+		));
+
+
 		$wp_customize->add_section( 'zerif_rightribbon_section' , array(
 				'title'       => __( 'RightButton Ribbon', 'zerif-lite' ),
 				'priority'    => 2,

@@ -313,8 +313,11 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 	/* RIBBON WITH BOTTOM BUTTON */
 
-
 	include get_template_directory() . "/sections/ribbon_with_bottom_button.php";
+
+	/* RIBBON WITH BOTTOM BUTTON -- BLUE*/
+
+	include get_template_directory() . "/sections/ribbon_with_bottom_button_blue.php";
 
 
 

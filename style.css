@@ -1862,6 +1862,29 @@ ul.nav > li.current_page_item.current > a:before {
 	margin-bottom: 20px;
 	margin-top: 15px;
 }
+
+/*---------------------------------------
+ **   Secction:  Separator blue        -----
+-----------------------------------------*/
+.separator-blue {
+	background: rgba(52, 0, 147, 0.8);
+	padding: 100px 0 100px 0;
+}
+.separator-blue .blue-btn {
+	background: #14a168;
+}
+.separator-blue .blue-btn:hover {
+	background: #007345;
+}
+.separator-blue .text {
+	color: #FFF;
+	line-height: 34px;
+	padding: 0;
+	max-width: 800px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
 /*---------------------------------------
  **   Section: Portfolio          -----
 -----------------------------------------*/
