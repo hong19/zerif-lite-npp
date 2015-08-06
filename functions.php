@@ -1635,7 +1635,9 @@ function recaptcha_scripts() {
 
 }
 
+
 /* remove custom-background from body_class() */
+/*
 add_filter( 'body_class', 'remove_class_function' );
 function remove_class_function( $classes ) {
 
@@ -1648,3 +1650,4 @@ function remove_class_function( $classes ) {
     return $classes;
 
 }
+*/
