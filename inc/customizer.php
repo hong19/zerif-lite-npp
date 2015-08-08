@@ -1338,6 +1338,50 @@ function zerif_customize_register( $wp_customize ) {
 	        'section' => 'zerif_pricing_section',
 	   )
 	));
+
+	/* Donation section*/
+	$wp_customize->add_section( 'zerif_donation_section' , array(
+					'title'       => __( 'Donation section', 'zerif-lite' ),
+					'priority'    => 122
+	));
+	/* text */
+	$wp_customize->add_setting( 'zerif_donation_text', array('sanitize_callback' => 'zerif_sanitize_text'));
+	$wp_customize->add_control( 'zerif_donation_text', array(
+	'label' => __( 'Text', 'zerif-lite' ),
+	'section' => 'zerif_donation_section',
+	'settings' => 'zerif_donation_text',
+	'priority' => 1,
+	));
+
+	/* produce each button setting*/
+	$donation_button_amount = 8;
+	for( $i = 1; $i <= $donation_button_amount  ; $i++ ):
+		
+		/* button label */
+		$wp_customize->add_setting( 'zerif_donation_buttonlabel_' . $i, array('sanitize_callback' => 'zerif_sanitize_text'));
+		$wp_customize->add_control( 'zerif_donation_buttonlabel_' . $i, array(
+		'label' => __( 'Button label ' . $i, 'zerif-lite' ),
+		'section' => 'zerif_donation_section',
+		'settings' => 'zerif_donation_buttonlabel_' . $i,
+		'priority' => $i*2,
+		));		
+		
+		/* button link */
+		$wp_customize->add_setting( 'zerif_donation_buttonlink_' . $i, array('sanitize_callback' => 'esc_url_raw'));
+		$wp_customize->add_control( 'zerif_donation_buttonlink_' . $i, array(
+		'label' => __( 'Button link ' . $i, 'zerif-lite' ),
+		'section' => 'zerif_donation_section',
+		'settings' => 'zerif_donation_buttonlink_' . $i,
+		'priority' => $i*2 + 1,
+		));		
+
+	endfor;
+	
+	
+
+	
+	
+
 }
 add_action( 'customize_register', 'zerif_customize_register' );
 /**
