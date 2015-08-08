@@ -4718,6 +4718,7 @@ body.custom-background {
 		padding-bottom: 0;
 		padding-top: 0;
 	}
+
 	.dropdownmenu {
 		display: block;
 		position: absolute;
@@ -4934,4 +4935,54 @@ body.custom-background {
 
 .zerif-copyright-box {
 	width: 100%;
+}
+
+
+/* DONATION */
+
+.donation{
+	background: rgba(92, 110, 221, 0.8);
+    padding: 70px 0 70px 0;
+}
+
+.donation > h2{
+	color: #FFF;
+
+}
+
+.navbar-inner {
+	text-align:center;
+	display: inline-block;
+	float: none;
+}
+
+.navbar-inner > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+  padding: 30px 15px;
+}
+
+.btn-circle {
+ 	width: 90px;
+    height: 90px;
+    text-align: center;
+    padding: 34px 0;
+    line-height: 1;
+    font-size: 20px;
+    border-radius: 45px;
+}
+
+.btn-lightblue{
+	color: #FFF;
+    background-color: #3562E0;
+    border-color: #5782A6;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-lightblue:hover {
+	color: #FFF;
+	background: #0C33A1;
 }
