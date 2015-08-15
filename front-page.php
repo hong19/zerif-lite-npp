@@ -306,8 +306,8 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 	$section_amount = 11; // the amount of sections 
 
 	//include each section
-	for ( $i = 1 ; $i <= $section_amount ; $i++ ){
-		$section_name = get_theme_mod('zerif_order_' . $i);
+	for ( $section_idx = 1 ; $section_idx <= $section_amount ; $section_idx++ ){
+		$section_name = get_theme_mod('zerif_order_' . $section_idx);
 
 		if( $section_name != 'none' ){
 			include get_template_directory() . "/sections/". $section_name . '.php';
