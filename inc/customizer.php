@@ -92,16 +92,16 @@ function zerif_customize_register( $wp_customize ) {
 				'choices'        => array(
 					'none' => __('none', 'zerif-lite'),
 	                'about_us'  => __( 'About us', 'zerif-lite' ),
-	                'bit_title'  => __( 'Bit title', 'zerif-lite' ),
 	                'donation'  => __( 'Donation', 'zerif-lite' ),
 	                'latest_news'  => __( 'Latest news', 'zerif-lite' ),
 	                'our_focus'   => __( 'Our focus', 'zerif-lite' ),
-	                'out_team'  => __( 'Our team', 'zerif-lite' ),
+	                'our_team'  => __( 'Our team', 'zerif-lite' ),
 	                'ribbon_with_bottom_button'  => __( 'Ribbon green', 'zerif-lite' ),
 	                'ribbon_with_bottom_button_blue'  => __( 'Ribbon blue', 'zerif-lite' ),
 	             	'ribbon_with_bottom_button_orange'  => __( 'Ribbon orange', 'zerif-lite' ),
 	             	'ribbon_with_bottom_button_purple'  => __( 'Ribbon purple', 'zerif-lite' ),
-	             	'ribbon_with_right_button'  => __( 'Ribbon red', 'zerif-lite' )
+	             	'ribbon_with_right_button'  => __( 'Ribbon red', 'zerif-lite' ),
+	             	'testimonials' => __('Testimonials', 'zerif-lite')
 	            ),
 				'priority'    => $i,
 		));
