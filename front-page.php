@@ -302,86 +302,73 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 <?php
 
-	/* OUR FOCUS SECTION */
+		
+	$section_amount = 11; // the amount of sections 
 
-	$zerif_ourfocus_show = get_theme_mod('zerif_ourfocus_show');
+	//include each section
+	for ( $section_idx = 1 ; $section_idx <= $section_amount ; $section_idx++ ){
+		$section_name = get_theme_mod('zerif_order_' . $section_idx);
 
-	if( isset($zerif_ourfocus_show) && $zerif_ourfocus_show != 1 ):
-		include get_template_directory() . "/sections/our_focus.php";
-	endif;
+		if( $section_name != 'none' ){
+			include get_template_directory() . "/sections/". $section_name . '.php';
+		}
+	}
 
-	/* DONATION */
+	
 
-	include get_template_directory() . "/sections/donation.php";	
+	// /* OUR FOCUS SECTION */
 
-	/* RIBBON WITH BOTTOM BUTTON */
+	// include get_template_directory() . "/sections/our_focus.php";
 
-	include get_template_directory() . "/sections/ribbon_with_bottom_button.php";
+	// /* DONATION */
 
-	/* RIBBON WITH BOTTOM BUTTON -- BLUE*/
+	// include get_template_directory() . "/sections/donation.php";	
 
-	include get_template_directory() . "/sections/ribbon_with_bottom_button_blue.php";
+	// /* RIBBON WITH BOTTOM BUTTON */
 
-	/* RIBBON WITH BOTTOM BUTTON -- PURPLE*/
+	// include get_template_directory() . "/sections/ribbon_with_bottom_button.php";
 
-	include get_template_directory() . "/sections/ribbon_with_bottom_button_purple.php";
+	// /* RIBBON WITH BOTTOM BUTTON -- BLUE*/
 
-	/* RIBBON WITH BOTTOM BUTTON -- ORANGE*/
+	// include get_template_directory() . "/sections/ribbon_with_bottom_button_blue.php";
 
-	include get_template_directory() . "/sections/ribbon_with_bottom_button_orange.php";
+	// /* RIBBON WITH BOTTOM BUTTON -- PURPLE*/
 
+	// include get_template_directory() . "/sections/ribbon_with_bottom_button_purple.php";
 
+	//  RIBBON WITH BOTTOM BUTTON -- ORANGE 
 
-
-
-
-	/* ABOUT US */
-
-	$zerif_aboutus_show = get_theme_mod('zerif_aboutus_show');
-
-	if( isset($zerif_aboutus_show) && $zerif_aboutus_show != 1 ):
-
-		include get_template_directory() . "/sections/about_us.php";
-	endif;
+	// include get_template_directory() . "/sections/ribbon_with_bottom_button_orange.php";
 
 
-	/* OUR TEAM */
-
-	$zerif_ourteam_show = get_theme_mod('zerif_ourteam_show');
-
-	if( isset($zerif_ourteam_show) && $zerif_ourteam_show != 1 ):
-
-		include get_template_directory() . "/sections/our_team.php";
-	endif;
+	// /* ABOUT US */
 
 
-	/* TESTIMONIALS */
+	// include get_template_directory() . "/sections/about_us.php";
 
-	$zerif_testimonials_show = get_theme_mod('zerif_testimonials_show');
 
-	if( isset($zerif_testimonials_show) && $zerif_testimonials_show != 1 ):
+	// /* OUR TEAM */
 
-		include get_template_directory() . "/sections/testimonials.php";
-	endif;
+
+	// include get_template_directory() . "/sections/our_team.php";
+
+
+	// /* TESTIMONIALS */
+
+	// include get_template_directory() . "/sections/testimonials.php";
 
 
 
-
-	/* RIBBON WITH RIGHT SIDE BUTTON */
-
-
-	include get_template_directory() . "/sections/ribbon_with_right_button.php";
+	// /* RIBBON WITH RIGHT SIDE BUTTON */
 
 
+	// include get_template_directory() . "/sections/ribbon_with_right_button.php";
 
-	/* LATEST NEWS */
-	$zerif_latestnews_show = get_theme_mod('zerif_latestnews_show');
 
-	if( isset($zerif_latestnews_show) && $zerif_latestnews_show != 1 ):
+	// /* LATEST NEWS */
 
-		include get_template_directory() . "/sections/latest_news.php";
+	// include get_template_directory() . "/sections/latest_news.php";
 
-	endif;
 
 
 
