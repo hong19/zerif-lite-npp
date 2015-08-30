@@ -1,4 +1,4 @@
-# Zerif Lite NPP
+#zerif-lite-npp
 A WordPress theme which is edited from zerif-lite.
 ## Introduction
 Zerif Lite NPP is a WordPress theme which is forked from [Zerif Lite](https://github.com/Codeinwp/zerif-lite).  
