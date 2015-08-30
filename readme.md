@@ -1,4 +1,5 @@
 # Zerif Lite NPP
+An Wordpress theme which is edited from zerif-lite.
 ## Introduction
 Zerif Lite NPP is a WordPress theme which is forked from [Zerif Lite](https://github.com/Codeinwp/zerif-lite).  
 Zerit Lite NPP is developed for the purpose of constructing the website of **New Power Party**'s candidate--**lawyer Ko**.
