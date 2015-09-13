@@ -28,13 +28,13 @@
 				if( !empty($zerif_aboutus_subtitle) ):
 
 
-					echo '<h6 class="white-text">';
+					echo '<h3 class="white-text">';
 
 
 						echo __($zerif_aboutus_subtitle,'zerif-lite');
 
 
-					echo '</h6>';
+					echo '</h3>';
 
 
 				endif;
