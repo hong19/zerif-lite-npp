@@ -4950,6 +4950,14 @@ body.custom-background {
 
 }
 
+.donation a{
+	color: white;
+}
+
+.donation a:visited{
+	color: white;
+}
+
 .navbar-inner {
 	text-align:center;
 	display: inline-block;
