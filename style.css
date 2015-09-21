@@ -4941,13 +4941,21 @@ body.custom-background {
 /* DONATION */
 
 .donation{
-	background: rgba(92, 110, 221, 0.8);
+	background: rgba(233, 102, 86, 0.8);
     padding: 70px 0 70px 0;
 }
 
 .donation > h2{
 	color: #FFF;
 
+}
+
+.donation a{
+	color: white;
+}
+
+.donation a:visited{
+	color: white;
 }
 
 .navbar-inner {
@@ -4975,14 +4983,14 @@ body.custom-background {
     border-radius: 45px;
 }
 
-.btn-lightblue{
+.btn-burgundy{
 	color: #FFF;
-    background-color: #3562E0;
-    border-color: #5782A6;
+    background-color: #D14431;
+    border-color: #D97668;
     transition: all 0.3s ease-in-out;
 }
 
-.btn-lightblue:hover {
+.btn-burgundy:hover {
 	color: #FFF;
-	background: #0C33A1;
+	background: #A72817;
 }

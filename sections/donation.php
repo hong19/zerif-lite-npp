@@ -32,11 +32,9 @@
 
 					if( !empty($zerif_donation_buttonlabel[ $btn_idx ]) ):
 
-						echo '<li><div href="' . $zerif_donation_buttonlink[ $btn_idx ] . '" class ="btn btn-lightblue btn-circle">';
-						 
-						echo $zerif_donation_buttonlabel[ $btn_idx ];
-						 
-						echo '</div></li>';
+						echo '<li><div><a href="' . $zerif_donation_buttonlink[ $btn_idx ] . '" target="_blank" class ="btn btn-burgundy btn-circle">';						 
+							echo $zerif_donation_buttonlabel[ $btn_idx ];
+						echo '</a></div></li>';
 				
 
 					endif;
